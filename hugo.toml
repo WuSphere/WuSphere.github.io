@@ -1,0 +1,4 @@
+baseURL = "https://WuSphere.github.io/"
+languageCode = "en-us"
+title = "My Hugo Site"
+theme = "relearn"
