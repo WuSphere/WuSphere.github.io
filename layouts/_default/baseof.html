@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ .Title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    {{ partial "custom-header.html" . }}
+</head>
+<body>
+
+    <!-- 粒子背景 -->
+    <div id="particles-js"></div>
+
+    <!-- 页面内容 -->
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
+
+    <!-- Hugo 内置脚本 -->
+    {{ partial "footer.html" . }}
+
+    <!-- 引入粒子动画 -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            particlesJS("particles-js", {
+                particles: {
+                    number: { value: 100, density: { enable: true, value_area: 800 } },
+                    shape: { type: "circle" },
+                    size: { value: 3, random: true },
+                    move: { speed: 2 },
+                    opacity: { value: 0.5, random: true },
+                    line_linked: { enable: true, distance: 150, color: "#ffffff" }
+                }
+            });
+            console.log("✅ Particles.js 已初始化！");
+        });
+    </script>
+
+    <!-- 样式美化 -->
+    <style>
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100vh !important;
+            top: 0;
+            left: 0;
+            background: linear-gradient(to right, #000428, #004e92);
+            z-index: -1;
+        }
+        main {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+
+</body>
+</html>

@@ -7,6 +7,14 @@ theme = "relearn"
   customCSS = ["css/custom.css"]
   logo = "images/logo.png"
 
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [[menu.main]]
 identifier = "blog"
 name = "📖 博客"
@@ -18,3 +26,9 @@ identifier = "projects"
 name = "🚀 项目"
 url = "/projects/"
 weight = 2
+
+[[menu.main]]
+identifier = "private"
+name = "🚀 私人"
+url = "/private/"
+weight = 3

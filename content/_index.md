@@ -17,4 +17,4 @@ description: "Explore my projects, blog, and knowledge base!"
 🔥 **立即开始探索吧！**
 
 
-[🚀 进入博客](/blog/) | [📂 查看项目](/projects/)
+[🚀 进入博客](/blog/) | [📂 查看项目](/projects/)| [📂 私人](/private/)

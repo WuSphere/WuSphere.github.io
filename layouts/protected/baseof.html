@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }}</title>
+</head>
+<body>
+    <div id="password-container">
+        <h2>🔒 请输入访问密码</h2>
+        <input type="password" id="password-input" placeholder="请输入密码">
+        <button id="password-submit">🔑 解锁</button>
+    </div>
+
+    <div id="private-content" style="display: none;">
+        {{ block "main" . }}{{ end }}
+    </div>
+
+    <script>
+    async function hashPassword(password) {
+        const encoder = new TextEncoder();
+        const data = encoder.encode(password);
+        const hashBuffer = await crypto.subtle.digest("SHA-256", data);
+        const hashArray = Array.from(new Uint8Array(hashBuffer));
+        return hashArray.map(byte => byte.toString(16).padStart(2, "0")).join("");
+    }
+
+    document.getElementById("password-submit").addEventListener("click", async function () {
+        let inputPassword = document.getElementById("password-input").value;
+        let hashedInput = await hashPassword(inputPassword);
+
+        let correctHash = "{{ .Params.passwordHash }}"; // 读取 `passwordHash`
+        if (hashedInput === correctHash) {
+            document.getElementById("password-container").style.display = "none";
+            document.getElementById("private-content").style.display = "block";
+        } else {
+            alert("🚫 密码错误，请重试！");
+        }
+    });
+    </script>
+</body>
+</html>
