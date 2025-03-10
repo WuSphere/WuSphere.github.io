@@ -1,4 +1,5 @@
-## [shell script]ファイル一覧と行数をCSVファイルに出力する
+## [shell script]_ファイル一覧と行数をCSVファイルに出力する
+
 ```sh
 #!/usr/bin/bash
 
