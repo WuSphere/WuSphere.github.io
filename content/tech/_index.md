@@ -1,5 +1,5 @@
 +++
-title = "Log"
+title = "Tech"
 type = "chapter"
 weight = 1
 +++

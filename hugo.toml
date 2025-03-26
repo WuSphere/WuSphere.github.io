@@ -1,7 +1,7 @@
 baseURL = '/'
 relativeURLs = true
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'this is WuSphere'
 theme = 'hugo-theme-relearn'
 images = ['images/hero.png']
 
@@ -10,30 +10,9 @@ images = ['images/hero.png']
   page = ['html', 'rss', 'print']
   section = ['html', 'rss', 'print']
 
-defaultContentLanguage = 'en'
-
-[languages]
-  [languages.en]
-    languageCode = 'en'
-    languageName = 'English'
-    title = 'My Website'
-    weight = 1
-
-  [languages.zh]
-    languageCode = 'zh-CN'
-    languageName = '中文'
-    title = '我的网站'
-    weight = 2
-
-  [languages.ja]
-    languageCode = 'ja'
-    languageName = '日本語'
-    title = '私のウェブサイト'
-    weight = 3
-
 [author]
-  email = 'santa@example.com'
-  name = 'Santa Claus'
+  email = 'yang787042442@yahoo.co.jp'
+  name = 'YangQW'
 
 [params]
   disableLanguageSwitchingButton = true
