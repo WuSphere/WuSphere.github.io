@@ -1,5 +1,5 @@
 +++
-title = "個人"
+title = "private"
 type = "chapter"
 weight = 1
 +++
