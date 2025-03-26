@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>First Day :: My Website</title>
+    <link>//localhost:1313/log-copy/first-day/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 18 Mar 2025 23:45:26 +0900</lastBuildDate>
+    <atom:link href="//localhost:1313/log-copy/first-day/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Third Day</title>
+      <link>//localhost:1313/log-copy/first-day/forth-day/index.html</link>
+      <pubDate>Tue, 18 Mar 2025 23:45:26 +0900</pubDate>
+      <guid>//localhost:1313/log-copy/first-day/forth-day/index.html</guid>
+      <description>--- title: Example Diagram --- graph LR; A[Hard edge] --&gt;|Link text| B(Round edge) B --&gt; C{&lt;strong&gt;Decision&lt;/strong&gt;} C --&gt;|One| D[Result one] C --&gt;|Two| E[Result two] Important Version6.6.6 Captain InfoNew Awesome&#xA;Go Hugo Download Magic&#xA;​ python 1 print(&#34;Hello World!&#34;)</description>
+    </item>
+  </channel>
+</rss>

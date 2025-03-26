@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Website</title>
+    <link>//localhost:1313/index.html</link>
+    <description>This is your new home page.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 18 Mar 2025 23:45:26 +0900</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Log</title>
+      <link>//localhost:1313/log/index.html</link>
+      <pubDate>Tue, 18 Mar 2025 23:45:26 +0900</pubDate>
+      <guid>//localhost:1313/log/index.html</guid>
+      <description>This is a new chapter.</description>
+    </item>
+    <item>
+      <title>private</title>
+      <link>//localhost:1313/private/index.html</link>
+      <pubDate>Tue, 18 Mar 2025 23:45:26 +0900</pubDate>
+      <guid>//localhost:1313/private/index.html</guid>
+      <description>This is a new chapter.</description>
+    </item>
+  </channel>
+</rss>
