@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Website</title>
+    <title>WuSphereへようこそ :: WuSphere</title>
     <link>//localhost:1313/index.html</link>
-    <description>This is your new home page.</description>
+    <description>技術・生活・子育ての軌跡を発信</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>en-us</language>
     <lastBuildDate>Tue, 18 Mar 2025 23:45:26 +0900</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Log</title>
-      <link>//localhost:1313/log/index.html</link>
+      <title>Tech</title>
+      <link>//localhost:1313/tech/index.html</link>
       <pubDate>Tue, 18 Mar 2025 23:45:26 +0900</pubDate>
-      <guid>//localhost:1313/log/index.html</guid>
-      <description>This is a new chapter.</description>
+      <guid>//localhost:1313/tech/index.html</guid>
+      <description>This is a new chapter.&#xA;git hugo shellscript</description>
     </item>
     <item>
       <title>private</title>

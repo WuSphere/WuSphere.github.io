@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>レイアウト関連 :: WuSphere</title>
+    <link>//localhost:1313/tech/hugo/layout/index.html</link>
+    <description>--- title: Example Diagram --- graph LR; A[Hard edge] --&gt;|Link text| B(Round edge) B --&gt; C{&lt;strong&gt;Decision&lt;/strong&gt;} C --&gt;|One| D[Result one] C --&gt;|Two| E[Result two] Important Version6.6.6 Captain InfoNew Awesome&#xA;Go Hugo Download Magic&#xA;​ python 1 print(&#34;Hello World!&#34;)</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="//localhost:1313/tech/hugo/layout/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

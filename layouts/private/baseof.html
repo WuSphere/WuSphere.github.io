@@ -75,8 +75,10 @@
       
           <div id="password-entry">
               <p>このページはパスワードで保護されています。</p>
-              <input type="password" id="password-input" placeholder="パスワードを入力してください">
-              <button onclick="checkPassword()">送信</button>
+              <form onsubmit="checkPassword(); return false;">
+                <input type="password" id="password-input" placeholder="パスワードを入力してください" />
+                <button type="submit">送信</button>
+              </form>
               <p id="password-error" style="color: red; display: none;">パスワードが間違っています。</p>
           </div>
       

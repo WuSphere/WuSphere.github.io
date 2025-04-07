@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ファイル一覧を抽出する :: WuSphere</title>
+    <link>//localhost:1313/tech/git/getfilelist/index.html</link>
+    <description>指定フォルダからファイル一覧をい固定フォーマットのCSVファイルに出力する&#xA;# 出力ファイルのパスを指定 $outputFile = &#34;H:\ZZZZZ成果物Temp\20241111\40003-20241111&#34; # CSVのヘッダー行を追加 &#34;サイズ,日付,時刻,出力資源ファイル名,備考G,備考チェック,備考&#34; | Out-File -FilePath $outputFile -Encoding UTF8 # 対象フォルダのパスを指定 $targetFolder = &#34;C:\path\to\your\folder&#34; # 現在の日付を備考チェックに使用 $noteCheck = Get-Date -Format &#34;yyyy/MM/dd&#34; $noteG = &#34;QAZ&#34; # 備考Gの固定値 $note = &#34;備考&#34; # 備考の固定値 # 指定フォルダ内のすべてのファイルを再帰的に処理 Get-ChildItem -Path $targetFolder -Recurse -File | ForEach-Object { # ファイル情報の取得 $fileSize = $_.Length $fileDate = $_.LastWriteTime.ToString(&#34;yyyy/MM/dd&#34;) $fileTime = $_.LastWriteTime.ToString(&#34;HH:mm:ss&#34;) $filePath = $_.FullName # CSV形式の行を作成して出力ファイルに追加 &#34;$fileSize,$fileDate,$fileTime,$filePath,$noteG,$noteCheck,$note&#34; | Out-File -FilePath $outputFile -Append -Encoding UTF8 } Write-Host &#34;ファイル一覧が $outputFile に出力されました。&#34;</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="//localhost:1313/tech/git/getfilelist/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shellscript :: WuSphere</title>
+    <link>//localhost:1313/tech/shellscript/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Mar 2025 23:45:26 +0900</lastBuildDate>
+    <atom:link href="//localhost:1313/tech/shellscript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WindowS一時ファイル削除</title>
+      <link>//localhost:1313/tech/shellscript/auto-temp-cleanup-setup/index.html</link>
+      <pubDate>Tue, 18 Mar 2025 23:45:26 +0900</pubDate>
+      <guid>//localhost:1313/tech/shellscript/auto-temp-cleanup-setup/index.html</guid>
+      <description>資格情報を更新後、再起動の代わりにキャシュをクリアする klist purge 環境変数を修正した後に、端末を再起動しないで反映する方法 $env:PATH = [System.Environment]::GetEnvironmentVariable(&#34;PATH&#34;,&#34;Machine&#34;) + &#34;;&#34; + [System.Environment]::GetEnvironmentVariable(&#34;PATH&#34;,&#34;User&#34;)</description>
+    </item>
+    <item>
+      <title>環境変数修正関連</title>
+      <link>//localhost:1313/tech/shellscript/environmentvariable/index.html</link>
+      <pubDate>Tue, 18 Mar 2025 23:45:26 +0900</pubDate>
+      <guid>//localhost:1313/tech/shellscript/environmentvariable/index.html</guid>
+      <description>資格情報を更新後、再起動の代わりにキャシュをクリアする klist purge 環境変数を修正した後に、端末を再起動しないで反映する方法 $env:PATH = [System.Environment]::GetEnvironmentVariable(&#34;PATH&#34;,&#34;Machine&#34;) + &#34;;&#34; + [System.Environment]::GetEnvironmentVariable(&#34;PATH&#34;,&#34;User&#34;)</description>
+    </item>
+  </channel>
+</rss>

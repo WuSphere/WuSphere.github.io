@@ -1,21 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>//localhost:1313/en/sitemap.xml</loc>
-    
-      <lastmod>2025-03-18T23:45:26+09:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>//localhost:1313/zh/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>//localhost:1313/ja/sitemap.xml</loc>
-    
-  </sitemap>
-  
-</sitemapindex>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>//localhost:1313/tech/index.html</loc>
+    <lastmod>2025-03-18T23:45:26+09:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/index.html</loc>
+    <lastmod>2025-03-18T23:45:26+09:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/tech/git/getfilelist/index.html</loc>
+    <lastmod>2025-03-18T23:45:26+09:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/private/index.html</loc>
+    <lastmod>2025-03-18T23:45:26+09:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/tech/git/index.html</loc>
+    <lastmod>2025-03-18T23:45:15+09:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/tech/hugo/index.html</loc>
+    <lastmod>2025-03-18T23:45:15+09:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/private/interview/index.html</loc>
+    <lastmod>2025-03-18T23:45:15+09:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/private/others/index.html</loc>
+    <lastmod>2025-03-18T23:45:15+09:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/tech/shellscript/index.html</loc>
+    <lastmod>2025-03-18T23:45:20+09:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/private/interview/ines-onboardinginterview/index.html</loc>
+    <lastmod>2025-03-18T23:45:26+09:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/tech/hugo/layout/index.html</loc>
+    <lastmod>2025-03-18T23:45:26+09:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/tech/shellscript/environmentvariable/index.html</loc>
+    <lastmod>2025-03-18T23:45:26+09:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/categories/index.html</loc>
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/index.html</loc>
+  </url>
+</urlset>

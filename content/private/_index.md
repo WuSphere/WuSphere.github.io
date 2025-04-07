@@ -1,7 +1,7 @@
 +++
 title = "private"
 type = "chapter"
-weight = 1
+weight = 2
 +++
 
 This is a new chapter.

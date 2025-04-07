@@ -1,7 +1,7 @@
 baseURL = '/'
 relativeURLs = true
 languageCode = 'en-us'
-title = 'this is WuSphere'
+title = 'WuSphere'
 theme = 'hugo-theme-relearn'
 images = ['images/hero.png']
 

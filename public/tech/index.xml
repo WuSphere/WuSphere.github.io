@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech :: WuSphere</title>
+    <link>//localhost:1313/tech/index.html</link>
+    <description>This is a new chapter.&#xA;git hugo shellscript</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Mar 2025 23:45:20 +0900</lastBuildDate>
+    <atom:link href="//localhost:1313/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>git</title>
+      <link>//localhost:1313/tech/git/index.html</link>
+      <pubDate>Tue, 18 Mar 2025 23:45:15 +0900</pubDate>
+      <guid>//localhost:1313/tech/git/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>hugo</title>
+      <link>//localhost:1313/tech/hugo/index.html</link>
+      <pubDate>Tue, 18 Mar 2025 23:45:15 +0900</pubDate>
+      <guid>//localhost:1313/tech/hugo/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>shellscript</title>
+      <link>//localhost:1313/tech/shellscript/index.html</link>
+      <pubDate>Tue, 18 Mar 2025 23:45:20 +0900</pubDate>
+      <guid>//localhost:1313/tech/shellscript/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
