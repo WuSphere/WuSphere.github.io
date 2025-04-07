@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WindowS一時ファイル削除 :: WuSphere</title>
+    <link>//localhost:1313/tech/shellscript/deletetempfile/index.html</link>
+    <description>資格情報を更新後、再起動の代わりにキャシュをクリアする klist purge 環境変数を修正した後に、端末を再起動しないで反映する方法 $env:PATH = [System.Environment]::GetEnvironmentVariable(&#34;PATH&#34;,&#34;Machine&#34;) + &#34;;&#34; + [System.Environment]::GetEnvironmentVariable(&#34;PATH&#34;,&#34;User&#34;)</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="//localhost:1313/tech/shellscript/deletetempfile/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
