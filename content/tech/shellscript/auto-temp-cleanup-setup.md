@@ -73,7 +73,7 @@ Write-Host "=== ✅ 所有临时文件清理完成 ==="
 - 3. 设置操作
 操作类型：选择「启动程序」
 
-    - 程序:`arduino`
+    - 程序:`powershell`
     - 添加参数（引数）：`-ExecutionPolicy Bypass -File "H:\Scripts\Clear-TempFiles.ps1"`
 
 - 4. 提升权限运行（推荐）
