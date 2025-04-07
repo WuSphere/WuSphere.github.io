@@ -9,7 +9,7 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "",
-    "content": "🌏 WuSphereへようこそ！ 探求 · 創造 · 成長\nこのサイトでは、テクノロジー、子育て、AI、そして日々の気づきを発信しています。\n🚀 プロジェクト紹介 最新の技術プロジェクトを紹介します。子育て支援システムやAI応用、日常業務効率化など、幅広く取り組んでいます。\n子育て支援システム 技術メモとTips 📘 技術ブログ 日々の学習記録、試行錯誤、ツールの使い方などをまとめています。\nGit や ShellScript の実用例 Hugo や VS Code の活用法 👶 子育てログ 子どもとの日常や、育児・教育に関するヒントを記録。\n面接練習ログ、遊びの工夫、教育方針など 📚 コンテンツ一覧 TechThis is a new chapter.\ngit hugo shellscript privateThis is a new chapter.",
+    "content": "探求 · 創造 · 成長\nこのサイトでは、テクノロジー、子育て、AI、そして日々の気づきを発信しています。\n🚀 プロジェクト紹介 最新の技術プロジェクトを紹介します。子育て支援システムやAI応用、日常業務効率化など、幅広く取り組んでいます。\n子育て支援システム 技術メモとTips 📘 技術ブログ 日々の学習記録、試行錯誤、ツールの使い方などをまとめています。\nGit や ShellScript の実用例 Hugo や VS Code の活用法 👶 子育てログ 子どもとの日常や、育児・教育に関するヒントを記録。\n面接練習ログ、遊びの工夫、教育方針など 📚 コンテンツ一覧 TechThis is a new chapter.\ngit hugo shellscript privateThis is a new chapter.",
     "description": "技術・生活・子育ての軌跡を発信",
     "tags": [],
     "title": "WuSphereへようこそ",
