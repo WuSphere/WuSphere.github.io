@@ -35,12 +35,12 @@ function Clear-Folder($path) {
                 try {
                     Remove-Item $_.FullName -Recurse -Force -ErrorAction Stop
                 } catch {
-                    Write-Warning "⚠️ 無法刪除（可能被占用）: $($_.FullName)"
+                    # Write-Warning "⚠️ 無法刪除（可能被占用）: $($_.FullName)"
                 }
             }
             Write-Host "✅ 完成: $path"
         } catch {
-            Write-Warning "❌ 無法清理: $path"
+            Write-Warning "❌ 無法清理（权限或路径问题）: $path"
         }
     } else {
         Write-Warning "📁 路径不存在: $path"
@@ -52,10 +52,28 @@ foreach ($path in $paths) {
     Clear-Folder $path
 }
 
-# 可选：清空回收站（如需启用请取消注释）
+# 可选：清空回收站（如需启用，请取消注释）
+# Write-Host "🗑 清空回收站..."
 # (New-Object -ComObject Shell.Application).NameSpace(10).Items() | ForEach-Object { $_.InvokeVerb("delete") }
 
-Write-Host "=== ✅ 所有临时文件清理完成 ==="
+$extraPaths = @(
+    "$env:APPDATA\npm-cache",
+    "$env:APPDATA\npm",
+    "$env:USERPROFILE\.nuget\packages",
+    "$env:APPDATA\Postman",
+    "$env:APPDATA\Code\Cache",
+    "$env:APPDATA\Code\CachedData",
+    "$env:APPDATA\Code\logs",
+    "$env:APPDATA\Code\User\workspaceStorage",
+    "$env:APPDATA\Microsoft\Windows\Recent",
+    "$env:APPDATA\Microsoft\Teams"
+)
+
+foreach ($extra in $extraPaths) {
+    Clear-Folder $extra
+}
+
+Write-Host "`n=== ✅ 所有临时/缓存文件清理完成 ==="
 ```
 > 📌 请将脚本保存至：H:\Scripts\Clear-TempFiles.ps1
 
